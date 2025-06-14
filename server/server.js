@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4000
 app.use(express.json())
 
 app.use(cors({
-  origin: VITE_BACKEND_URL,
+  origin: 'https://imagify-wjue.onrender.com',
   credentials: true
 }));
 
