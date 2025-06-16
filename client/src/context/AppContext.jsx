@@ -26,7 +26,7 @@ const AppContextProvider = ({ children }) => {
   const [credit, setCredit] = useState(0);
   const [prompt, setPrompt] = useState(localStorage.getItem('prompt') || '');
 
-  const backendUrl = https://imagify-text-to-image-converter-0155.onrender.com ;
+  const backendUrl = "https://imagify-text-to-image-converter-0155.onrender.com" ;
   const navigate = useNavigate();
 
   const updatePrompt = (value) => {
