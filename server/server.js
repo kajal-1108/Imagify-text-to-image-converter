@@ -12,13 +12,13 @@ const PORT = process.env.PORT || 4000
 app.options('*', cors());
 app.use(express.json())
 app.use(cors({
-<<<<<<< Updated upstream
+
   origin: "https://imagify-text-to-image-converter-1.onrender.com",
-  credentials: true
-=======
+  credentials: true,
+
   origin: 'https://imagify-text-to-image-converter-1.onrender.com',
   credentials: true,
->>>>>>> Stashed changes
+
 }));
 
 await connectDB()
