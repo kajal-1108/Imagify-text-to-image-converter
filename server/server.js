@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4000
 app.use(express.json())
 
 app.use(cors({
-  origin: 'https://imagify-wjue.onrender.com',
+  origin: 'https://imagify-text-to-image-converter-1.onrender.com/',
   credentials: true
 }));
 
